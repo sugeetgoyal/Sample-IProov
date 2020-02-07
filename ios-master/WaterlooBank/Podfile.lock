@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - iProov (7.2.2):
+    - KeychainAccess (~> 4.1.0)
+    - Socket.IO-Client-Swift (~> 15.2.0)
+    - SwiftyJSON (~> 4.0.0)
+  - KeychainAccess (4.1.0)
+  - MBProgressHUD (1.2.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Alamofire-SwiftyJSON (~> 3.0)
+  - iProov (from `../`)
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - KeychainAccess
+    - MBProgressHUD
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  iProov:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  iProov: e42cea754898c6ccd3ddd2d586f3763ba4e78e95
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 1710baf2e28b49bbaa247e87f13f29ed3e4302bc
+
+COCOAPODS: 1.8.4
